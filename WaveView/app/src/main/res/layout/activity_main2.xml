@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pay.chaofun.WaveApplication.Main2Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+      >
+
+        <Button
+            android:id="@+id/shift_3_second"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:onClick="shiftAppointTime"
+            android:text="动3秒" />
+
+        <Button
+            android:id="@+id/shift_always"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:onClick="shiftAlways"
+            android:text="一直动①" />
+
+        <Button
+            android:id="@+id/shift_always_from_bottom"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:onClick="shiftAlwaysFromBottom"
+            android:text="一直动②" />
+
+        <Button
+            android:id="@+id/shift_from_bottom2top"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:onClick="shiftBottom2Top"
+            android:text="溢满效果" />
+    </LinearLayout>
+
+</RelativeLayout>
